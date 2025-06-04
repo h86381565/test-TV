@@ -1,6 +1,10 @@
 
+//      >>> 当前时间是：2025-06-04 23:00:09 <<<
+//  关注微信公众号【神秘的哥哥们】有惊喜哦！！！
+//  当前接口：http://www.饭太硬.net/tv
+
 {
-"spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1748759136407/f0601.txt;md5;0107e9be795257ee9596e58ff2b12327",
+"spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749039209739/f0604.jpg;md5;d95cd1a158eee9b9b9912ee7ad109e5c",
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 "sites":[
 {"key":"豆","name":"修复更新所有【神秘的哥哥们】","type":3,"api":"csp_DouDouGuard","indexs":1,"searchable":0,"quickSearch":0,"changeable":0},
@@ -35,8 +39,6 @@
 {"key":"88","name":"⚽88┃看球","type":3,"api":"csp_Sir88Guard","timeout":10,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"看球","name":"⚽看球┃直播","type":3,"api":"csp_KanqiuGuard","timeout":10,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"Jrsjs","name":"⚽Jrs┃球迷","type":3,"api":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js","style":{"type":"list"},
-"timeout":10,"searchable":0,"quickSearch":0,"changeable":0},
-{"key":"酷奇","name":"🎤酷奇┃MV","type":3,"api":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js","style":{"type":"rect","ratio":1.597},
 "timeout":10,"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"MTV","name":"🎧明星┃MV","type":3,"api":"csp_BiliGuard","style":{"type":"rect","ratio":1.597},
 "searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed490195f7bf50ac60b9"}},
@@ -74,7 +76,6 @@
 ],
 "logo":"https://cdn.wmpvp.com/steamWeb/B96F868DE45B45D690B5F9F490D0BC60-1745866248445.gif",
 "lives":[
-{"name":"V4肥羊","type":0,"url":"https://tanway.oss-cn-beijing.aliyuncs.com/upload/juhe_42636_b9e159834f.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"V6范明明（需开启V6网络）","type":0,"url":"https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250425-868403-298462cec53c48439a5765ceaca3c67f.m3u","playerType":2},
 {"name":"牛播一","type":0,"url":"http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"V4聚合（卡顿请按左┃右键换线）","type":0,"url":"https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
