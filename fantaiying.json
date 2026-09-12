@@ -3,26 +3,75 @@
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
-      "key": "ffzy",
-      "name": "👑非凡影视┃秒播",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "key": "wogg_4k",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["国产剧","港台剧","日韩剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产动漫","日韩动漫","大陆综艺"]
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
     },
     {
-      "key": "yangzai",
-      "name": "阳仔┃多线",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "key": "libvio_4k",
+      "name": "🌟立播┃蓝光1080P",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "cz_1080",
+      "name": "📔厂长┃1080P秒播",
+      "type": 3,
+      "api": "csp_NewCz",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.czys.pro/"
+    },
+    {
+      "key": "wc_1080",
+      "name": "💮文采┃1080P秒播",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "ikun",
+      "key": "ffzy_hd",
+      "name": "👑非凡影视┃秒播",
+      "type": 1,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影","连续剧","综艺","动漫","短视频"]
+    },
+    {
+      "key": "yangzi",
+      "name": "🐻阳仔┃多线",
+      "type": 1,
+      "api": "https://api.yzzy-api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["电影","电视剧","综艺","动漫","短视频"]
+    },
+    {
+      "key": "ikun_hd",
       "name": "🥝爱坤┃秒播",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/",
@@ -36,29 +85,12 @@
       "type": 1,
       "api": "https://www.mozhua2.net/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "wogg_net",
-      "name": "👽玩偶哥哥┃4K弹幕",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
       "quickSearch": 1,
-      "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}
+      "filterable": 1
     }
   ],
-  "lives": [
-    {"name":"范明明V6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://live.fanmingming.com/tv/{name}.png"}
-  ],
-  "parses": [
-    {"name":"解析聚合","type":1,"url":"https://json.5lp.net/json/?url=","ext":{"flag":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","renrenmi"]}},
-    {"name":"Json轮询","type":1,"url":"https://jx.xmflv.com/?url="}
-  ],
-  "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","renrenmi","duoduozy","ffm3u8","lzm3u8","ckm3u8","wogg","4k","auto"],
-  "ijk": [
-    {"group":"软解码","options":[{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"opensles","value":"0"}]},
-    {"group":"硬解码","options":[{"category":4,"name":"mediacodec","value":"1"}]}
-  ],
-  "ads": ["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","hm.baidu.com","cnzz.com"]
+  "lives": [{"name": "范明明V6","type": 0,"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType": 1}],
+  "parses": [{"name": "解析聚合","type": 1,"url": "https://json.5lp.net/json/?url="}],
+  "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","4k","auto","1080p","4K"],
+  "ijk": [{"group": "软解码","options": [{"category": 4,"name": "mediacodec","value": "0"}]},{"group": "硬解码","options": [{"category": 4,"name": "mediacodec","value": "1"}]}]
 }
