@@ -79,18 +79,7 @@
       "api": "https://api.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动漫",
-        "电影",
-        "连续剧",
-        "综艺",
-        "短视频",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片"
-      ]
+      "filterable": 1
     },
     {
       "key": "yangzi",
@@ -99,14 +88,7 @@
       "api": "https://api.yzzy-api.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动漫",
-        "电影",
-        "电视剧",
-        "综艺",
-        "短视频"
-      ]
+      "filterable": 1
     },
     {
       "key": "ikun_hd",
