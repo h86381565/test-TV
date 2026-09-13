@@ -3,6 +3,15 @@
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
+      "key": "ffzy_hd",
+      "name": "👑非凡影视┃秒播",
+      "type": 1,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "wogg_4k",
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
@@ -14,26 +23,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.net/",
-        "danMu": "弹",
-        "filter": [
-          "首页推荐",
-          "电影",
-          "电视剧",
-          "综艺"
-        ],
-        "categories": [
-          "动漫",
-          "短视频",
-          "电视直播",
-          "少儿",
-          "动作片",
-          "喜剧片",
-          "爱情片",
-          "科幻片",
-          "恐怖片",
-          "剧情片",
-          "战争片"
-        ]
+        "danMu": "弹"
       }
     },
     {
@@ -46,10 +36,7 @@
       "filterable": 1,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "filter": [
-          "首页推荐"
-        ]
+        "from": "4k|auto"
       }
     },
     {
@@ -68,15 +55,6 @@
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "ffzy_hd",
-      "name": "👑非凡影视┃秒播",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
