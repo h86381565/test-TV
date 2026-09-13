@@ -14,7 +14,26 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.net/",
-        "danMu": "弹"
+        "danMu": "弹",
+        "filter": [
+          "首页推荐",
+          "电影",
+          "电视剧",
+          "综艺"
+        ],
+        "categories": [
+          "动漫",
+          "短视频",
+          "电视直播",
+          "少儿",
+          "动作片",
+          "喜剧片",
+          "爱情片",
+          "科幻片",
+          "恐怖片",
+          "剧情片",
+          "战争片"
+        ]
       }
     },
     {
@@ -27,7 +46,10 @@
       "filterable": 1,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "from": "4k|auto",
+        "filter": [
+          "首页推荐"
+        ]
       }
     },
     {
@@ -58,7 +80,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["电影","连续剧","综艺","动漫","短视频"]
+      "categories": [
+        "动漫",
+        "电影",
+        "连续剧",
+        "综艺",
+        "短视频",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片"
+      ]
     },
     {
       "key": "yangzi",
@@ -68,7 +100,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["电影","电视剧","综艺","动漫","短视频"]
+      "categories": [
+        "动漫",
+        "电影",
+        "电视剧",
+        "综艺",
+        "短视频"
+      ]
     },
     {
       "key": "ikun_hd",
@@ -89,8 +127,57 @@
       "filterable": 1
     }
   ],
-  "lives": [{"name": "范明明V6","type": 0,"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType": 1}],
-  "parses": [{"name": "解析聚合","type": 1,"url": "https://json.5lp.net/json/?url="}],
-  "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","4k","auto","1080p","4K"],
-  "ijk": [{"group": "软解码","options": [{"category": 4,"name": "mediacodec","value": "0"}]},{"group": "硬解码","options": [{"category": 4,"name": "mediacodec","value": "1"}]}]
+  "lives": [
+    {
+      "name": "范明明V6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 1,
+      "url": "https://json.5lp.net/json/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "4k",
+    "auto",
+    "1080p",
+    "4K"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        }
+      ]
+    }
+  ]
 }
