@@ -3,6 +3,21 @@
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
+      "key": "ffzy_hd",
+      "name": "👑非凡影视┃秒播",
+      "type": 1,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "连续剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
       "key": "wogg_4k",
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
@@ -15,9 +30,7 @@
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹",
-        "filter": [],
         "categories": [
-          "首页推荐",
           "电影片",
           "连续剧",
           "综艺片",
@@ -35,14 +48,7 @@
       "filterable": 1,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "categories": [
-          "首页推荐",
-          "电影片",
-          "连续剧",
-          "综艺片",
-          "少儿"
-        ]
+        "from": "4k|auto"
       }
     },
     {
@@ -66,22 +72,6 @@
       "filterable": 1
     },
     {
-      "key": "ffzy_hd",
-      "name": "👑非凡影视┃秒播",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "首页推荐",
-        "电影片",
-        "连续剧",
-        "综艺片",
-        "少儿"
-      ]
-    },
-    {
       "key": "yangzi",
       "name": "🐻阳仔┃多线",
       "type": 1,
@@ -90,11 +80,10 @@
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
-        "首页推荐",
-        "电影片",
-        "连续剧",
-        "综艺片",
-        "少儿"
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
       ]
     },
     {
