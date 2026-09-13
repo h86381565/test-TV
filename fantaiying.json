@@ -1,30 +1,10 @@
 {
-  "spider": "https://cdn.jsdelivr.net/gh/h86381565/test-TV@main/lib/jinenge.jar",
+  "spider": "https://cdn.jsdelivr.net/gh/h86381565/test-TV@main/1ib/jinenge.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
-      "key": "ffzy_hd",
-      "name": "👑非凡影视┃秒播",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "少儿"
-      ],
-      "ext": {
-        "year": "2025,2026",
-        "home_latest": "电影,连续剧"
-      }
-    },
-    {
       "key": "wogg_4k",
-      "name": "👽玩偶哥哥┃4K弹幕",
+      "name": "👽玩偶哥哥 | 4K弹幕",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -35,133 +15,20 @@
         "from": "4k|auto",
         "siteUrl": "https://www.wogg.net/",
         "danMu": "弹",
+        "filter": [
+          "首页推荐",
+          "电影",
+          "电视剧",
+          "综艺"
+        ],
         "categories": [
           "电影片",
           "连续剧",
           "综艺片",
-          "少儿/动漫",
+          "少儿",
           "动漫"
         ]
       }
-    },
-    {
-      "key": "libvio_4k",
-      "name": "🌟立播┃蓝光1080P",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "cz_1080",
-      "name": "📔厂长┃1080P秒播",
-      "type": 3,
-      "api": "csp_NewCz",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czys.pro/"
-    },
-    {
-      "key": "wc_1080",
-      "name": "💮文采┃1080P秒播",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "yangzi",
-      "name": "🐻阳仔┃多线",
-      "type": 1,
-      "api": "https://api.yzzy-api.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-    {
-      "key": "ikun_hd",
-      "name": "🥝爱坤┃秒播",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "mozhua",
-      "name": "🐾魔爪┃秒播",
-      "type": 1,
-      "api": "https://www.mozhua2.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    }
-  ],
-  "lives": [
-    {
-      "name": "范明明V6",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1
-    }
-  ],
-  "parses": [
-    {
-      "name": "解析聚合",
-      "type": 1,
-      "url": "https://json.5lp.net/json/?url="
-    }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "wasu",
-    "4k",
-    "auto",
-    "1080p",
-    "4K"
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        }
-      ]
     }
   ]
 }
