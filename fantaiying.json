@@ -1,5 +1,5 @@
 {
-  "spider": "https://cdn.jsdelivr.net/gh/h86381565/test-TV@main/lib/jinenge.jar",
+  "spider": "https://raw.githubusercontent.com/h86381565/test-TV/main/lib/jinenge.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
@@ -63,7 +63,7 @@
       "key": "yangzi",
       "name": "🐻阳仔┃多线",
       "type": 1,
-      "api": "https://api.yzzy-api.com/api.php/provide/vod/",
+      "api": "shturl.cc/EjdsF8Z9GTBmEg3ho4QD3unnOMmh83lr8E4",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
